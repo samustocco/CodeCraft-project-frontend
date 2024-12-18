@@ -1,0 +1,79 @@
+/* Stili generali */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1,
+h2 {
+  color: #333;
+}
+
+form {
+  margin-bottom: 30px;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Allineamento dei campi */
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px; /* Spaziatura tra i campi */
+}
+
+.input-group {
+  flex: 1; /* Ogni input occupa lo stesso spazio */
+  margin-right: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+select,
+textarea,
+button {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  width: 50%;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-left: 25%;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#activitiesContainer {
+  margin-bottom: 40px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+input[type="checkbox"] {
+  position: relative;
+  top: 31px;
+  left: 160px;
+  transform: scale(1.2);
+}

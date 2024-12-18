@@ -1,0 +1,15 @@
+{
+  "name": "cascinacaccia",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "browserslist": "> 0.5%, last 3 versions, not dead, not IE 11, not Edge < 16",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.0.1"
+  }
+}

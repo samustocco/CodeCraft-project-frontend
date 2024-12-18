@@ -10,6 +10,6 @@ export interface FormDataRequest {
 }
 export interface FormDataBooking {}
 
-export type ActivitiesByAgeGroup = {
+export interface ActivitiesByAgeGroup {
   [key: string]: string[];
-};
+}
